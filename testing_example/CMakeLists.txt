@@ -26,8 +26,11 @@ include(GoogleTest)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 enable_testing()
+# Triangle test
 add_executable(test_basic_triangle test/test_triangle.cpp src/geometry.cpp)
 target_link_libraries(test_basic_triangle gtest_main)
 add_test(basic_triangle test_basic_triangle)
-
-
+# Circle test
+add_executable(test_basic_circle test/test_circle.cpp src/geometry.cpp)
+target_link_libraries(test_basic_circle gtest_main)
+add_test(basic_circle test_basic_circle)

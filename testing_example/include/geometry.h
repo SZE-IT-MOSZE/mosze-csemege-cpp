@@ -36,4 +36,19 @@ public:
     virtual bool check();
 };
 
+class Circle: public Geometry {
+private:
+    double radius;
+public:
+    Circle(double radius);
+
+    virtual ~Circle();
+
+    // Conventional fromulas for area & circumference
+    virtual double circumference();
+    virtual double area();
+    // Check if radius is nonnegative
+    virtual bool check();
+};
+
 #endif //TESTING_EXAMPLE_GEOMETRY_H
