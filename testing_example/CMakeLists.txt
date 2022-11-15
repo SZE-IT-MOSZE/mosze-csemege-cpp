@@ -15,6 +15,10 @@ FetchContent_MakeAvailable(googletest)
 
 set(CMAKE_CXX_STANDARD 17)
 
+# NOTE: Windows alatt kell ez a definíció, különben az M_PI konstansra fordítási hibát dob
+add_compile_definitions(_USE_MATH_DEFINES)
+
+# Using include directory
 include_directories(include)
 
 add_executable(triangle_example src/main.cpp src/geometry.cpp)

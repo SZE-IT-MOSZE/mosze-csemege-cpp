@@ -5,6 +5,7 @@
 #ifndef TESTING_EXAMPLE_GEOMETRY_H
 #define TESTING_EXAMPLE_GEOMETRY_H
 
+
 #include <cmath>
 
 class Geometry {
