@@ -6,8 +6,9 @@ C++ példák a következő témakörökben:
 
 ## Példák tételes felsorolása
 
-1. [Minimális CMake projekt](./very_minimal)
-1. [GTest mintapélda - alakzatok](./testing_example)
+1. [Minimális CMake projekt](./01_very_minimal)
+1. [GTest mintapélda - alakzatok](./02_testing_example)
+1. [Külső könyvtár használata - XML](./03_using_external_library_tinyxml/)
 
 
 ### GTest mintapélda - alakzatok
